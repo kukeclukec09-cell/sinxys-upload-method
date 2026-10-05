@@ -1,8 +1,13 @@
 {
-  "rewrites": [
-    {
-      "source": "/patcher",
-      "destination": "/patcher.html"
-    }
-  ]
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@ffmpeg/ffmpeg": "^0.12.15",
+    "@ffmpeg/util": "^0.12.2"
+  },
+  "devDependencies": {
+    "vite": "^8.3.2"
+  }
 }
