@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/patcher",
+      "destination": "/patcher.html"
+    }
+  ]
+}
